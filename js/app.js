@@ -45,3 +45,12 @@ app.factory('posts',[function() {
   };
   return o;
 }]);
+
+// app.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRouteProvider) {
+//     $stateProvider.state('home',{
+//       url:'/home',
+//       templateUrl:'/home.html',
+//       controller:'MainCtrl'
+//     });
+//     $urlRouterProvider.otherwise('home');
+// }]);
